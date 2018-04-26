@@ -1,0 +1,12 @@
+<div>
+  <form class="form-signin text-center" (ngSubmit)="authentication()">
+    <h1 class="h3 mb-3 font-weight-normal">Please Login</h1>
+    <label for="id" class="sr-only">Email address</label>
+    <input type="email" [(ngModel)]="id" name="id" id="id" class="form-control" placeholder="Email address" required="" autofocus/>
+    <label for="pass" class="sr-only">Password</label>
+    <input type="password" [(ngModel)]="pass" name="pass" id="pass" class="form-control" placeholder="Password" required="" />
+    <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>
+
+    <p class="mt-5 mb-3 text-muted">© 2017-2018</p>
+  </form>
+</div>
